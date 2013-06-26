@@ -1,0 +1,307 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta name="google-site-verification" content="dz1CF_dYQix2FLpCtV4ED33NfwRBiS0t5j6cJkoN_jk" />
+<meta name="distribution" content="Global" />
+<meta name="rating" content="General" />
+<meta name="robots" content="ALL INDEX" />
+<meta name="keywords" content="webbutvecklare, fotograf, webbstandarder, modefoto, studiofoto, studiofotografering, CSS, Jquery, onlineportfolio, clubpachatoxic, m15, magasin15, joomla, wordpress, css, html, php, Yacine, Belarbi, Yacine Belarbi, fotograf södermalm, fotograf stockholm, porträtt bilder, bilder" />
+<meta name="description" content="Yacine Belarbi onlineportfolio" />
+<meta name="author" content="Yacine Belarbi" />
+<meta name="copyright" content="Yacine Belarbi" />
+<title>tittavadjagkan.se - Yacine Belarbi</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="wrap">
+	<div id="start">
+		<h1 class="logo">
+			<img lang="sv" src="images/myname_sv.gif" alt="Jag heter Yacine Belarbi" class="sv" />	
+			<img lang="en" src="images/myname_en.gif" alt="My name is Yacine Belarbi" class="en" />
+		</h1>	
+		<ul id="aboutme">
+			<li>
+				<div class="sv" lang="sv">
+					<span>
+						<b>Jag bor i </b>
+						<a rel="external" href="http://bit.ly/enhWzj">
+						<del>Stockholm</del>
+						</a>
+					</span>
+					<span>
+						<a href="http://bit.ly/gZwKOC" rel="external">Zürich, Schweiz</a>
+					</span>
+				</div>
+				<div class="en" lang="en">
+					<span>
+						<b>I live in </b>
+						<a rel="external" href="http://bit.ly/enhWzj">
+						<del>Stockholm, Sweden</del>
+						</a>
+					</span>
+					<span>
+						<a href="http://bit.ly/gZwKOC" rel="external">Zürich, Switzerland</a>
+					</span>
+				</div>				
+			</li>
+			<li>
+				<div class="sv" lang="sv">
+					<span>
+						<b>Jag jobbar som webbutvecklare på </b>
+						<a href="http://www.spraypassagen.se" rel="external" style="text-decoration:line-through;">spraypassagen.se</a></span><span><a style="text-decoration:line-through;" href="http://www.film2home.se" rel="external">film2home.se</a>
+					</span>
+					<span>
+						<a href="http://www.ef.com" rel="external">ef.com</a>
+					</span>
+				</div>
+				<div class="en" lang="en">
+					<span>
+						<b>I work as a webdeveloper for </b>
+						<a href="http://www.spraypassagen.se" rel="external" style="text-decoration:line-through;">spraypassagen.se</a></span><span><a style="text-decoration:line-through;" href="http://www.film2home.se" rel="external">film2home.se</a>
+					</span>
+					<span>
+						<a href="http://www.ef.com" rel="external">ef.com</a>
+					</span>
+				</div>
+			</li>
+			<li>
+				<div class="sv" lang="sv">
+					<span>
+						<b>Jag har skapat sidan </b>
+						<a href="http://www.varskaviata.nu" rel="external">varskaviäta.nu</a>
+					</span>
+				</div>
+				<div class="en" lang="en">
+					<span>
+						<b>I've created the site </b>
+						<a href="http://www.varskaviata.nu" rel="external">varskaviäta.nu</a>
+					</span>
+				</div>
+			</li>	
+			<li>
+				<div class="sv" lang="sv">
+					<span>
+						<b>Jag använder Spotify för att lyssna på min </b>
+						<a href="http://open.spotify.com/user/moppedisco" rel="external">favoritmusik</a>
+					</span>
+				</div>
+				<div class="en" lang="en">
+					<span>
+						<b>I use Spotify to listen to my </b>
+						<a href="http://open.spotify.com/user/moppedisco" rel="external">favorite music</a>
+					</span>
+				</div>
+			</li>
+			<li>
+				<div class="sv" lang="sv">
+					<span>
+						<b>Jag följer bloggarna </b>
+						<a href="http://industribolaget.blogg.se/" rel="external">industribolaget</a>, 
+						<a href="http://ohsohightech.se/" rel="external">ohsohightech</a> 
+						<b>och</b> 
+						<a href="http://www.fashiongonerogue.com/" rel="external">fashiongonerogue</a>
+					</span>
+				</div>
+				<div class="en" lang="en">
+					<span>
+						<b>I like the blogs </b>
+						<a href="http://ffffound.com//" rel="external">ffffound</a>, 
+						<a href="http://cssglobe.com/" rel="external">CSS globe</a> 
+						<b>and</b> 
+						<a href="http://www.fashiongonerogue.com/" rel="external">fashiongonerogue</a>
+					</span>
+				</div>				
+			</li>
+			<li>
+				<div class="sv" lang="sv">
+					<span>
+						<b>Jag gillar serierna </b>
+						<a href="http://www.hbo.com/entourage/" rel="external">Entourage</a>, 
+						<a href="http://abc.go.com/primetime/lost/index" rel="external">Lost</a> 
+						<b>och</b> 
+						<a href="http://www.familyguy.com/" rel="external">Family Guy</a>
+					</span>
+				</div>
+				<div class="en" lang="en">
+					<span>
+						<b>I enjoy watching TV-series, especially </b>
+						<a href="http://www.hbo.com/entourage/" rel="external">Entourage</a>, 
+						<del><a href="http://abc.go.com/primetime/lost/index" rel="external">Lost</a></del>
+						<a href="http://www.cbs.com/primetime/two_and_a_half_men/" rel="external">2½ men</a>
+						<b>and</b> 
+						<a href="http://www.familyguy.com/" rel="external">Family Guy</a>
+					</span>
+				</div>
+				
+			</li>					
+			<li>
+				<div class="sv" lang="sv">
+					<span>
+						<b>Jag finns på </b>
+						<a href="http://www.facebook.com/yacinebelarbi" rel="external">Facebook</a>,
+						<a href="http://twitter.com/moppedisco" rel="external">Twitter</a>,
+						<a href="http://www.youtube.com/moppedisco" rel="external">Youtube</a>,
+						<a href="http://www.flickr.com/photos/yoshin/" rel="external">Flickr</a>
+					</span>
+				</div>
+				<div class="en" lang="en">
+					<span>
+						<b>Im on </b>
+						<a href="http://www.facebook.com/yacinebelarbi" rel="external">Facebook</a>,
+						<a href="http://twitter.com/moppedisco" rel="external">Twitter</a>,
+						<a href="http://www.youtube.com/moppedisco" rel="external">Youtube</a>,
+						<a href="http://www.flickr.com/photos/yoshin/" rel="external">Flickr</a>
+					</span>
+				</div>
+				
+			</li>				
+            <li><ul id="twitter_update_list"><li></li></ul></li>
+		</ul>	
+		<a href="#" class="button webbknapp" rel="web button">
+			<span  class="sv"><img lang="sv" src="images/merknapp.gif" alt="Mer" /><b class="arrow">&nbsp;</b></span>
+			<span  class="en"><img lang="en" src="images/merknapp_en.gif" alt="More" /><b class="arrow">&nbsp;</b></span>
+		</a>	
+		<div id="flags">
+			<img lang="sv" src="images/flag_se.png" alt="Swedish" class="active" />	
+			<img lang="en" src="images/flag_gb.png" alt="English" />
+		</div>		
+	</div>
+	<div id="webb">
+		<h2 class="logo">
+			<img lang="sv" src="images/webb.gif" alt="webb" class="sv" />	
+			<img lang="en" src="images/webb_en.gif" alt="web" class="en" />
+		</h2>		
+			<ul id="webbgallery">
+				<li  class="item">
+					<img src="images/lookmodels.jpg" alt="lookmodels" />
+					<div class="text">
+						<p><a href="http://www.lookmodels.se" rel="external">lookmodels.se</a></p>
+						<p>
+						<span>Design</span><span>(X)HTML</span><span>CSS</span>
+						<span>Wordpress</span>
+						</p>						
+					</div>
+				</li>				
+				<li  class="item">
+					<img src="images/lagazelle.jpg" alt="LaGazelle" />
+					<div class="text">
+						<p><a href="http://www.lagazelle.se" rel="external">lagazelle.se</a></p>
+						<p><span>Design</span><span>(X)HTML</span><span>CSS</span><span class="en" lang="en">Online order</span><span class="sv" lang="sv">Online beställning</span></p>						
+					</div>
+				</li>			
+				<li class="item">				
+					<a href="#"><img src="images/pacha.jpg" alt="pacha" /></a>
+					<div class="text">
+						<p><a href="http://www.clubpachatoxic.com" rel="external">clubpachatoxic.com</a></p>
+						<p><span>Design</span><span>(X)HTML</span><span>CSS</span><span>Joomla CMS</span><span class="en" lang="en">Guestbook</span><span class="sv" lang="sv">Gästbok</span><span>Login</span></p>
+					</div>
+				</li>
+				
+			</ul>
+		<a href="#" class="button fotoknapp" rel="photo button">
+			<span  class="sv"><img lang="sv" src="images/merknapp.gif" alt="Mer" /><b class="arrow">&nbsp;</b></span>
+			<span  class="en"><img lang="en" src="images/merknapp_en.gif" alt="More" /><b class="arrow">&nbsp;</b></span>
+		</a>
+		</div>			
+	<div id="foto">
+		<h2 class="logo">
+			<img lang="sv" src="images/foto.gif" alt="foto" class="sv" />	
+			<img lang="en" src="images/foto_en.gif" alt="photography" class="en" />
+		</h2>	
+		<div id="gallery_wrap">
+			<ul class="gallery">
+				<li class="active"><a href="http://www.tittavadjagkan.se/bilder2/a1.jpg" title=""><img src="http://www.tittavadjagkan.se/thumbnails/a1.jpg" alt="Copyright Yacine Belarbi" /></a></li>
+				<li><a href="http://www.tittavadjagkan.se/bilder2/a2.jpg" title=""><img src="http://www.tittavadjagkan.se/thumbnails/a2.jpg" alt="Copyright Yacine Belarbi" /></a></li> 
+				<li><a href="http://www.tittavadjagkan.se/bilder2/b2.jpg" title=""><img src="http://www.tittavadjagkan.se/thumbnails/b2.jpg" alt="Copyright Yacine Belarbi" /></a></li> 
+				<li><a href="http://www.tittavadjagkan.se/bilder2/c1.jpg" title=""><img src="http://www.tittavadjagkan.se/thumbnails/c1.jpg" alt="Copyright Yacine Belarbi" /></a></li> 
+				<li><a href="http://www.tittavadjagkan.se/bilder2/c2.jpg" title=""><img src="http://www.tittavadjagkan.se/thumbnails/c2.jpg" alt="Copyright Yacine Belarbi" /></a></li> 
+				<li><a href="http://www.tittavadjagkan.se/bilder2/c3.jpg" title=""><img src="http://www.tittavadjagkan.se/thumbnails/c3.jpg" alt="Copyright Yacine Belarbi" /></a></li>
+				<li><a href="http://www.tittavadjagkan.se/bilder2/c4.jpg" title=""><img src="http://www.tittavadjagkan.se/thumbnails/c4.jpg" alt="Copyright Yacine Belarbi" /></a></li> 
+				<li><a href="http://www.tittavadjagkan.se/bilder2/c5.jpg" title=""><img src="http://www.tittavadjagkan.se/thumbnails/c5.jpg" alt="Copyright Yacine Belarbi" /></a></li> 
+				<li><a href="http://www.tittavadjagkan.se/bilder2/c6.jpg" title=""><img src="http://www.tittavadjagkan.se/thumbnails/c6.jpg" alt="Copyright Yacine Belarbi" /></a></li> 
+				<li><a href="http://www.tittavadjagkan.se/bilder2/c7.jpg" title=""><img src="http://www.tittavadjagkan.se/thumbnails/c7.jpg" alt="Copyright Yacine Belarbi" /></a></li> 
+				<li><a href="http://www.tittavadjagkan.se/bilder2/d1.jpg" title=""><img src="http://www.tittavadjagkan.se/thumbnails/d1.jpg" alt="Copyright Yacine Belarbi" /></a></li>         
+				<li><a href="http://www.tittavadjagkan.se/bilder2/e1.jpg" title=""><img src="http://www.tittavadjagkan.se/thumbnails/e1.jpg" alt="Copyright Yacine Belarbi" /></a></li> 
+				<li><a href="http://www.tittavadjagkan.se/bilder2/e2.jpg" title=""><img src="http://www.tittavadjagkan.se/thumbnails/e2.jpg" alt="Copyright Yacine Belarbi" /></a></li>
+				<li><a href="http://www.tittavadjagkan.se/bilder2/e3.jpg" title=""><img src="http://www.tittavadjagkan.se/thumbnails/e3.jpg" alt="Copyright Yacine Belarbi" /></a></li> 
+				<li><a href="http://www.tittavadjagkan.se/bilder2/e4.jpg" title=""><img src="http://www.tittavadjagkan.se/thumbnails/e4.jpg" alt="Copyright Yacine Belarbi" /></a></li> 
+				<li><a href="http://www.tittavadjagkan.se/bilder2/e5.jpg" title=""><img src="http://www.tittavadjagkan.se/thumbnails/e5.jpg" alt="Copyright Yacine Belarbi" /></a></li> 
+				<li><a href="http://www.tittavadjagkan.se/bilder2/f1.jpg" title=""><img src="http://www.tittavadjagkan.se/thumbnails/f1.jpg" alt="Copyright Yacine Belarbi" /></a></li> 
+				<li><a href="http://www.tittavadjagkan.se/bilder2/f2.jpg" title=""><img src="http://www.tittavadjagkan.se/thumbnails/f2.jpg" alt="Copyright Yacine Belarbi" /></a></li> 
+				<li><a href="http://www.tittavadjagkan.se/bilder2/g1.jpg" title=""><img src="http://www.tittavadjagkan.se/thumbnails/g1.jpg" alt="Copyright Yacine Belarbi" /></a></li>
+				<li><a href="http://www.tittavadjagkan.se/bilder2/h1.jpg" title=""><img src="http://www.tittavadjagkan.se/thumbnails/h1.jpg" alt="Copyright Yacine Belarbi" /></a></li> 
+				<li><a href="http://www.tittavadjagkan.se/bilder2/h2.jpg" title=""><img src="http://www.tittavadjagkan.se/thumbnails/h2.jpg" alt="Copyright Yacine Belarbi" /></a></li> 
+				<li><a href="http://www.tittavadjagkan.se/bilder2/h3.jpg" title=""><img src="http://www.tittavadjagkan.se/thumbnails/h3.jpg" alt="Copyright Yacine Belarbi" /></a></li>     
+				<li><a href="http://www.tittavadjagkan.se/bilder2/h4.jpg" title=""><img src="http://www.tittavadjagkan.se/thumbnails/h4.jpg" alt="Copyright Yacine Belarbi" /></a></li> 
+				<li><a href="http://www.tittavadjagkan.se/bilder2/h5.jpg" title=""><img src="http://www.tittavadjagkan.se/thumbnails/h5.jpg" alt="Copyright Yacine Belarbi" /></a></li> 
+				<li><a href="http://www.tittavadjagkan.se/bilder2/h6.jpg" title=""><img src="http://www.tittavadjagkan.se/thumbnails/h6.jpg" alt="Copyright Yacine Belarbi" /></a></li> 
+				<li><a href="http://www.tittavadjagkan.se/bilder2/h7.jpg" title=""><img src="http://www.tittavadjagkan.se/thumbnails/h7.jpg" alt="Copyright Yacine Belarbi" /></a></li> 
+				<li><a href="http://www.tittavadjagkan.se/bilder2/h8.jpg" title=""><img src="http://www.tittavadjagkan.se/thumbnails/h8.jpg" alt="Copyright Yacine Belarbi" /></a></li>
+				<li><a href="http://www.tittavadjagkan.se/bilder2/anna1.jpg" title=""><img src="http://www.tittavadjagkan.se/thumbnails/anna1_thumbnail.jpg" alt="Copyright Yacine Belarbi" /></a></li> 
+				<li><a href="http://www.tittavadjagkan.se/bilder2/s1.jpg" title=""><img src="http://www.tittavadjagkan.se/thumbnails/s1_thumbnail.jpg" alt="Copyright Yacine Belarbi" /></a></li>
+				<li><a href="http://www.tittavadjagkan.se/bilder2/s2.jpg" title=""><img src="http://www.tittavadjagkan.se/thumbnails/s2_thumbnail.jpg" alt="Copyright Yacine Belarbi" /></a></li> 
+				<li><a href="http://www.tittavadjagkan.se/bilder2/h13.jpg" title=""><img src="http://www.tittavadjagkan.se/thumbnails/h13.jpg" alt="Copyright Yacine Belarbi" /></a></li> 
+			</ul>
+		<a href="#" class="button kontaktknapp" rel="contact button">
+			<span  class="sv"><img lang="sv" src="images/merknapp.gif"  alt="Mer"/><b class="arrow">&nbsp;</b></span>
+			<span  class="en"><img lang="en" src="images/merknapp_en.gif" alt="More" /><b class="arrow">&nbsp;</b></span>
+		</a>		
+		</div>
+		<div id="main_image"></div>	
+
+		<div class="clearfix"></div>
+	</div>
+	<div id="kontakt">
+		<h2 class="logo">
+			<img lang="sv" src="images/kontakt.gif" alt="kontakt" class="sv" />	
+			<img lang="en" src="images/kontakt_en.gif" alt="contact" class="en" />
+		</h2>
+		<form id="commentform" method="post" action="index.php#start">	
+			<p>
+				<label for="name"><small class="sv">Namn</small><small class="en">Name</small></label>	
+				<input type="text" class="name" tabindex="1" size="22" value="" id="name" name="name" />
+			</p>	
+			<p>
+				<label for="email"><small class="sv">E-post</small><small class="en">E-mail</small></label>
+				<input type="text" class="required email" tabindex="2" size="22" value="" id="email" name="email" />
+			</p>	
+			<p>
+				<label for="website"><small class="sv">Webbsida/Blogg</small><small class="en">Website/Blogg</small></label>
+				<input type="text" class="website" tabindex="3" size="22" value="" id="website" name="website" />
+			</p>			
+			<p>
+				<label for="message"><small class="sv">Meddelande</small><small class="en">Message</small></label>		
+				<textarea class="required" tabindex="4" rows="4" cols="5" id="message" name="message"></textarea></p>
+			<p id="skickafelt">
+			<input type="submit" value="Submit" tabindex="5" id="skicka" name="submit"/>
+			<input type="hidden" value="1" name="comment_post_ID"/>
+			</p>
+		</form>	
+		<?php include 'include/sendmail.php'; ?>		
+		<a href="#" class="button startknapp" rel="back to top">
+			<span  class="sv"><img lang="sv" src="images/tillbaka.gif" alt="tillbaka" /><b class="arrow up">&nbsp;</b></span>
+			<span  class="en"><img lang="en" src="images/tillbaka_en.gif" alt="back" /><b class="arrow up">&nbsp;</b></span>
+		</a>
+		</div>						
+</div>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.scrollTo.js"></script>
+<script type="text/javascript" src="js/jquery.easing.js"></script>
+<script type="text/javascript" src="js/jquery_navigation.js"></script>
+<script type="text/javascript" src="js/jquery.galleria.js"></script>
+<script type="text/javascript" src="js/mousepaint.js"></script>
+<script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
+<script type="text/javascript" src="http://twitter.com/statuses/user_timeline/moppedisco.json?callback=twitterCallback2&amp;count=1"></script>	
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-6684115-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

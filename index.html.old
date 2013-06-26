@@ -1,0 +1,269 @@
+<!doctype html>
+<!--[if lt IE 7 ]> <html class="no-js ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Yacine Belarbi</title>
+	<meta name="description" content="" />
+	<meta name="author" content="" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="/favicon.ico" />
+	<link rel="apple-touch-icon" href="/apple-touch-icon.png"/>
+	<link rel="stylesheet" href="css/base.normalize.css"/>
+	<link rel="stylesheet" href="css/base.grid.css"/>	
+	<link rel="stylesheet" href="css/base.media.css"/>	
+	<link rel="stylesheet" href="css/main.css"/>
+	<script type="text/javascript" src="js/libs/modernizr.custom.59577.js"></script>
+</head>
+<body>
+	<div class="page">
+		<section class="line header">
+			<header class="unit size1of6 col">
+				<div class="logo">
+					<h1><span>Yacine Belarbi<i style="display: none;">The markup artist</i></h1>
+					<img alt="Logo" width="100" src="img/me2.png" style="display: none;"/>
+				</div>
+				<div id="nowPlayingSection" class="marquee" data-target="nowPlayingTpl" data-script="loadAjax" data-url="http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=moppedisco&api_key=751f646ff078929140ae0d72344c6a2f&format=json&limit=1">
+				</div>
+			</header>
+			<div class="unit size1of6 col"></div>
+			<div class="unit size1of6 col"></div>
+			<div class="unit size1of6 col"></div>
+			<div class="unit size1of6 col"></div>
+			<div class="unit size1of6 col"></div>
+		</section>
+		<section class="line intro">
+			<header class="unit size1of6">
+					<h3><span>About</span></h3>
+			</header>
+			<article class="unit size1of6">
+				<div class="col2 col">
+					<h4 class="bigTitle">Frontend developer</h4>
+					<small>I make websites</small>
+					<p>I love concepts like “one web”, “<a target="_blank" href="http://blog.jackcheng.com/post/25160553986/the-slow-web">the Slow Web</a>” and understand it the way that only real web souls do. I like HTML, CSS, JavaScript, and to invent new, creative online solutions with emphasis on good user experience.</p>					
+				</div>
+			</article>
+			<div class="unit size1of6"></div>
+			<div class="unit size1of6"></div>
+			<div class="unit size1of6"></div>
+			<div class="unit size1of6"></div>
+		</section>
+		<section class="line">
+			<header class="unit size1of6 workUnit">
+					<h3><span>Work</span></h3>
+			</header>
+			<article class="unit size1of6 workUnit col">
+					<h4><a href="http://www.ef.com" target="_blank">EF Education First</a></h4>
+					<small>Senior Frontend developer</small>
+					<div class="desc">
+						<p>Going more towards a consulting role by creating frontend strategies and guidelines for projects and other teams.</p><p>Moonlighting as an Interaction designer from time to time as well. Would like to do more of this in the future.</p>
+					</div>
+					<span class="dateStamp">Current ← April 2010</span>
+			</article>
+			<article class="unit size1of6 workUnit col">
+					<h4><a href="http://www.film2home.se" target="_blank">Film2home.se</a></h4>
+					<small>Frontend developer</small>
+					<div class="desc">
+						<p>Worked mostly with making the site cross browser friendly being the companies first dedicated frontend developer.</p><p>Found the wonderful world of JQuery and cooked up a lot of spaghetti JS. Made the first step to learn JS design patterns.</p>
+					</div>
+					<span class="dateStamp">April 2010 ← June 2009</span>
+			</article>
+			<article class="unit size1of6 workUnit col">
+					<h4><a href="http://www.spraypassagen.se" target="_blank">spraypassagen.se</a></h4>
+					<small>Junior developer</small>
+					<div class="desc">
+						<p>My first developer gig. Learned the basics of frontend development and found my call. Got really into <a href="http://www.csszengarden.com">Zen coding</a>.<p>Made Swedens oldest(1994) online portal, <a href="http://www.passagen.se" target="_blank">www.passagen.se</a>, validate for the first time ever in 2008.</p>
+					</div>
+					<span class="dateStamp">June 2009 ← December 2007</span>
+			</article>
+			<article class="unit size1of6 workUnit col">
+					<h4><a href="http://www.varskaviata.nu" target="_blank" class="icon-star">varskaviäta.nu</a></h4>
+					<small>My petproject</small>
+					<div class="desc">
+						<p>A website I created for looking up restaurants in my hometown Stockholm, Sweden.</p>
+					</div>
+					<span class="dateStamp">← Mars 2010</span>
+			</article>			
+			<div class="unit size1of6 workUnit"></div>
+		</section>		
+		<section class="line">
+			<header class="unit size1of6">
+				<h3><span>Skills</span></h3>
+			</header>
+			<article class="unit size1of6 col">
+					<h4>Code</h4>
+					<ul class="listBorder">
+						<li>HTML</li>
+						<li>CSS</li>
+						<li>jQuery/JavaScript</li>
+						<li>PHP</li>
+						<li>MySQL</li>
+					</ul>
+			</article>
+			<article class="unit size1of6 col">
+					<h4>API</h4>
+					<ul class="listBorder">
+						<li>Google maps</li>
+						<li>Twitter API</li>
+						<li>Youtube API</li>
+					</ul>					
+			</article>	
+			<article class="unit size1of6 col">
+					<h4>CMS</h4>
+					<ul class="listBorder">
+						<li>Wordpress</li>
+						<li>Joomla</li>
+						<li>Sitecore</li>
+						<li>EpiServer</li>
+					</ul>
+					<h4>Design</h4>
+					<ul class="listBorder">
+						<li>Photoshop</li>
+					</ul>	
+			</article>	
+			<article class="unit size1of6 col">
+					<h4>Other</h4>
+					<ul class="listBorder">
+						<li>I can do a backside 360 on a snowboard</li>
+						<li><a target="_blank" href="http://youtu.be/h7_ZJ2AblNI">Pretty good at football (nr12)</a></li>
+						<li>I bake a mean bananacake</li>
+						<li>I love anchovies</li>						
+						<li>Coffee lover</li>
+					</ul>
+			</article>
+			<div class="unit size1of6"></div>						
+		</section>
+		<section class="line noDivider">
+			<header class="unit size1of6">
+					<h3><span>Internet</span></h3>
+			</header>
+			<article class="unit size1of6 col">
+				<h4><a href="http://twitter.com/moppedisco" target="_blank">Twitter</a></h4>
+				<small>Latest tweet</small>
+				<div id="twitterSection" data-target="twitterTpl" data-script="loadAjax" data-url="http://api.twitter.com/1/statuses/user_timeline/moppedisco.json?&callback=?&count=2">
+				</div>
+			</article>
+			<article class="unit size1of6">
+				<div class="col3 col">
+					<h4><a href="https://svpply.com/moppedisco" target="_blank">Svpply</a></h4>
+					<small>Favorites</small>
+					<script src="https://api.svpply.com/v1/users/moppedisco/wants/products.json?limit=1&callback=var%20pelle="></script>
+					<script type='text/javascript' src='http://svpply.com/api/all.js#xsvml=1'></script>
+					<sv:feed-widget source='//svpply.com/moppedisco' columns='3' rows='1' width='800' link="My Svpply Favorites" background='#FFFFFF' widget_author='moppedisco'></sv:feed-widget>
+
+					<div id="svpplySection" data-target="svpplyTpl" data-script="" data-url="https://api.svpply.com/v1/users/moppedisco/wants/products.json?limit=1&callback=pelle">
+					</div>
+				</div>
+			</article>
+			<div class="unit size1of6"></div>	
+			<div class="unit size1of6"></div>	
+			<div class="unit size1of6"></div>											
+		</section>
+		<section class="line noDivider">
+			<div class="unit size1of6"></div>
+			<article class="unit size1of6">
+				<div class="col2 col">
+				<h4><a href="http://www.lastfm.se/user/moppedisco" target="_blank">Spotify</a></h4>
+				<small>Top tracks last 7days</small>
+				<ol id="spotifySection" class="spotifyList listSection" data-target="spotifyTpl" data-script="loadAjax" data-url="http://ws.audioscrobbler.com/2.0/?method=user.gettoptracks&user=moppedisco&api_key=751f646ff078929140ae0d72344c6a2f&period=7day&limit=5&format=json">					
+				</ol>
+				</div>
+			</article>	
+			<div class="unit size1of6"></div>					
+			<article class="unit size1of6">
+				<div class="col2 col">
+				<h4><a href="http://www.youtube.com/user/moppedisco" target="_blank">Youtube</a></h4>
+				<small>Latest likes</small>
+				<ol id="youtubeSection" class="listSection" data-callbackMethod="youtube" data-target="youtubeTpl" data-script="loadAjax" data-url="http://gdata.youtube.com/feeds/api/playlists/17706B6D47388B7D?alt=jsonc&v=2&orderby=published&max-results=5">
+				</ol>
+				</div>
+			</article>				
+			<div class="unit size1of6"></div>	
+			<div class="unit size1of6"></div>				
+		</section>
+		<section class="line">
+			<div class="unit size1of6"></div>
+			<article class="unit size1of6">
+				<div class="col4 col">
+					<h4><a href="http://iamaltofctrl.tumblr.com" target="_blank">Tumblr</a></h4>
+					<small>My collection of style, design, things I love, love it self &amp; dreams.</small>
+					<div id="tumblrSection" class="imgList">					
+						<script src="http://iamaltofctrl.tumblr.com/api/read/json?callback=?"></script>
+						<script>
+							for (var i=0;i<20;i++) {
+								if(tumblr_api_read){
+								document.write(
+									'<a target="_blank" href="'+tumblr_api_read.posts[i]['url']+'"><img src="' + tumblr_api_read.posts[i]['photo-url-75'] + 
+									'"/></a>');
+								}
+							}
+						</script>
+
+					</div>
+				</div>
+			</article>
+			<div class="unit size1of6"></div>	
+			<div class="unit size1of6"></div>	
+			<div class="unit size1of6"></div>	
+			<div class="unit size1of6"></div>							
+		</section>
+		<section class="line">
+			<header class="unit size1of6">
+				<h3><span>Contact</span></h3>
+			</header>
+			<article class="unit size1of6 col">
+				<h4>get in touch</h4>
+				<h5><a class="" href="http://twitter.com/moppedisco" target="_blank">Twitter</a></h5>
+				<h5><a class="" href="http://ch.linkedin.com/in/yacinebelarbi" target="_blank">LinkedIn</a></h5>
+				<h5><a class="" href="mailto:yacbel@gmail.com">Email</a></h5>
+			</article>			
+			<div class="unit size1of6"></div>
+			<div class="unit size1of6"></div>
+			<div class="unit size1of6"></div>
+			<div class="unit size1of6"></div>										
+		</section>
+	</div>
+<script src="http://www.google.com/jsapi" type="text/javascript"></script>
+<script type="text/javascript">
+	google.load("jquery", "1.7.1");
+	google.load("swfobject", "2.1");
+</script>  
+<script defer="defer" type="text/javascript" src="js/libs/mustache.js"></script>
+<script defer="defer" type="text/javascript" src="js/main.js"></script>
+
+<!-- Mustache.js templates -->
+<script id="nowPlayingTpl" type="text/template">
+{{#track}}{{#@attr.nowplaying}}<small>Currently listening to:</small><a>{{artist.#text}} - {{name}}</a>{{/@attr.nowplaying}}{{/track}}
+</script>			
+<script id="twitterTpl" type="text/template">
+<br	/><a href="https://twitter.com/moppedisco/status/{{id}}">{{text}}</a><br	/>
+</script>
+<script id="svpplyTpl" type="text/template">
+{{#products}}<img src="{{image}}" />{{/products}}
+</script>
+<script id="spotifyTpl" type="text/template">
+{{#track}}<li><span class="artist">{{artist.name}} - <i>{{name}}</i></span><span class="listHighlight">{{playcount}} <small>plays</small></span></li>{{/track}}
+</script>
+<script id="tumblrTpl" type="text/template">
+<img src="{{#posts}}{{id}}{{/posts}}" />
+</script>
+<script id="youtubeTpl" type="text/template">
+	{{#items}}<li><span>{{video.title}}</span><a target="_blank" href="http://www.youtube.com/watch?v={{video.id}}" class="listHighlight">View</a></li>{{/items}}
+</script>
+<!-- END HTML templates -->
+
+<!-- Google Analytics-->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-6684115-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>	
+<!-- END Google Analytics -->
+</body>

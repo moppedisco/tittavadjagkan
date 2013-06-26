@@ -1,0 +1,249 @@
+
+/*
+
+This file is based on Nicole Sullivan(@stubbornella on Twitter) OOCSS that you can read more about here https://github.com/stubbornella/oocss/wiki/ 
+
+/* ------- DO NOT MODIFY THIS FILE, INSTEAD OVERRIDE PROPERTYS IN YOUR PAGE SPECIFIC STYLESHEET ------- */
+
+/* = RESET
+---------------------------------------------------*/
+html {
+	color:#000;
+	background:#fff;
+}
+/* Always force a scrollbar in non-IE */
+html { overflow-y: scroll; }
+
+body,div,dl,dt,dd,ul,ol,li,
+h1,h2,h3,h4,h5,h6,pre,code,
+form,fieldset,legend,input,textarea,p,blockquote,th,td {
+	margin:0;
+	padding:0;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset,img { border:0; }
+address,caption,cite,code,dfn,em,strong,th,var { 
+	font-style:normal;
+	font-weight:normal;
+}
+li { list-style:none; }
+caption,th {text-align:left;}
+h1,h2,h3,h4,h5,h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+q:before,q:after {content:'';}
+abbr,acronym {
+	border:0;
+	font-variant:normal;
+}
+sup { vertical-align: text-top; }
+sub { vertical-align:text-bottom;}
+input,textarea,select {
+	font-family:inherit;
+	font-size:inherit;
+	font-weight:inherit;
+}
+textarea { overflow: auto; } /* www.sitepoint.com/blogs/2010/08/20/ie-remove-textarea-scrollbars/ */
+input,textarea,select { *font-size:100%; }
+legend { color:#000; }
+
+/* = FONTS
+---------------------------------------------------*/
+body {
+	font:13px/1.539 arial,helvetica,clean,sans-serif;
+	*font-size:small; /* for IE */
+	*font:x-small; /* for IE in quirks mode */
+}
+select,input,button,textarea { font:99% arial,helvetica,clean,sans-serif; } /* Nudge down to get to 13px equivalent for these form elements */
+table { font-size:inherit;font:100%; } /* To help tables remember to inherit */
+pre,code,kbd,samp,tt { /* Bump up IE to get to 13px equivalent for these fixed-width elements */
+	font-family:monospace;
+	*font-size:108%;
+	line-height:100%;
+}
+
+small { font-size: 85%; }
+
+/* 
+-----------------------------------------------------
+If you want this size in pixels (px)
+Declare this percent (%)
+-----------------------------------------------------
+(px)		  (%)
+10 ---------- 77
+11 ---------- 85
+12 ---------- 93
+13 ---------- 100
+14 ---------- 108
+15 ---------- 116
+16 ---------- 123.1
+17 ---------- 131
+18 ---------- 138.5
+19 ---------- 146.5
+20 ---------- 153.9
+21 ---------- 161.6
+22 ---------- 167
+23 ---------- 174
+24 ---------- 182
+25 ---------- 189
+26 ---------- 197
+-----------------------------------------------------
+*/
+
+/* = FRAMEWORK - Page Head, Body, and Foot
+---------------------------------------------------*/
+
+body { _text-align:left; }/* IE5.5 */
+.main{
+	display:table-cell;
+	*display:block;
+	width:auto;
+}
+.body,.main { *zoom:1; }
+.body:after,
+.main:after {
+	clear:both;
+	display:block;
+	visibility:hidden;
+	overflow:hidden;
+	height:0 !important;
+	line-height:0;
+	font-size:xx-large;
+	content:" x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x ";
+}
+
+.page{ 
+	margin:0 auto;
+	width:978px;
+	_text-align:left; /* wraps other template elems to set width */ /* text-align IE5.5 */
+} 
+
+.liquid{ width:auto; margin:0; }
+
+/* ====== Columns ====== */
+.leftCol{ 
+	float:left;
+	width:250px;
+	_margin-right:-3px;
+}
+.rightCol{ 
+	float:right;
+	width:300px;
+	_margin-left:-3px;
+	background: blue;
+	display: none;
+}
+
+.line:after,
+.lastUnit:after{ 
+	clear:both;
+	display:block;
+	visibility:hidden;
+	overflow:hidden;
+	height:0 !important;
+	line-height:0;
+	font-size:xx-large;
+	content:" x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x ";
+}
+.line{*zoom:1;}
+.unit{float:left;}
+.size1of1{float:none;}
+.size1of2{width:50%;}
+.size1of3{width:33.33333%;}
+.size2of3{width:66.66666%;}
+.size1of4{width:25%;}
+.size3of4{width:75%;}
+.size1of5{width:20%;}
+.size2of5{width:40%;}
+.size3of5{width:60%;}
+.size4of5{width:80%;}
+.size1of6{width:16.66666%;}
+.lastUnit{display:table-cell;float:none;width:auto;*display:block;*zoom:1;_position:relative;_left:-3px;_margin-right:-3px;}
+
+/* ====== TABLES ====== */
+/** 
+ * Data Table 
+ * Allows you to align various table cells so that the alignment class can be placed on either the table, table row, or table cell 
+ * Cell takes precedence over table row and table
+ * Table row takes precedence over table
+ */
+.data{position:relative; zoom:1;vertical-align: top;text-align: left; /*border-right:solid 1px transparent;*//* border fixes a FF2 bug which causes the data table to overlay its borders*/}
+.data table {width:100%; table-layout:fixed;}
+th, td{/*vertical-align:top;*/}
+/* horizontal alignment */
+.txtC, table .txtC, table tr .txtC{text-align:center;}
+.txtL, table .txtL, table tr .txtL{text-align:left;}
+.txtR, table .txtR, table tr .txtR{text-align:right;}
+/* vertical alignment */
+.txtT, table .txtT, table tr .txtT{vertical-align:top;}
+.txtB, table .txtB, table tr .txtB{vertical-align:bottom;}
+.txtM, table .txtM, table tr .txtM{vertical-align:middle;}
+.data th,.data td{padding:3px 20px}
+
+/* ====== CONTENT ====== */
+
+p {
+    margin: 10px 0;
+}
+
+a {color: #000; text-decoration: none;}
+a:focus, a:hover {text-decoration: underline;}
+a:visited { color:#000; }
+
+/*ol li { list-style-type: decimal; margin-left:40px; }
+ul li { list-style-type: disc; margin-left:40px; } */
+
+label, 
+input[type="button"], 
+input[type="submit"], 
+input[type="image"], 
+button { cursor: pointer; }
+
+strong, th { font-weight: bold; }
+em { font-style: italic; }
+
+/* ====== BLOCK STRUCTURES ====== */	
+/* mod */
+.mod{margin:10px;}
+.mod .inner{/*background: url(skin/transparent.png) repeat left top;*/}
+.bd,.ft, .hd{display: inline-block; width:100%; *display:block; *width:auto; zoom:1;}
+.inner:after,.hd:after,.bd:after,.ft:after{clear:both;display:block;visibility:hidden;overflow:hidden;height:0 !important;line-height:0;font-size:xx-large;content:" x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x ";}
+.inner{position:relative;}
+.inner b{display:block;background-repeat:no-repeat;font-size:1%;position:relative;z-index:10;}
+.tl, .tr, .bl, .br{height:10px; width:10px;float:left;}
+.tl{background-position: left top;}
+.tr{background-position: right top;}
+.bl{background-position: left bottom;}
+.br{background-position: right bottom;}
+.br,.tr{float:right;}
+.tr, .tl{overflow:hidden;margin-bottom:-32000px;}/* margin bottom needs to be < -9px */
+.bl,.br{margin-top:-10px;}
+.top{background-position:center top;}
+.bottom{background-position:center bottom;_zoom:1;}/* this zoom required for IE5.5 only*/
+/* complex */
+.complex{overflow:hidden;*position:relative;*zoom:1;}/* position/zoom required for IE7, 6, 5.5 */
+.complex .tl, .complex .tr{height:32000px; margin-bottom:-32000px;width:10px;}
+.complex .bl, .complex .br{/*margin-top:0;*/}
+.complex .top{height:5px;}
+.complex .bottom{height:5px;/*margin-top:-10px;*/}
+/* pop */
+.pop{overflow:visible;margin: 10px 20px 20px 10px; background-position:left top;}
+.pop .inner{right:-10px; bottom:-10px; background-position:right bottom;padding:0 10px 10px 0;}
+.pop .tl, .pop .br{display:none;}
+.pop .bl{bottom:-10px;}
+.pop .tr{float:right;margin-right:-10px;_display:inline;/fix double margin bug/}
+
+/* ====== media (requires mod.css) ====== */
+.media{margin: 0 0 10px;}
+.media:after, .bd:after{clear:both;display:block;visibility:hidden;overflow:hidden;height:0 !important;line-height:0;font-size:xx-large;content:" x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x ";}
+.media .bd{display:table-cell; zoom:1;}
+.media .bd > :first-child{margin-top:0;}
+.media .bd > :last-child{margin-bottom:0;}
+.media .img{float:left;margin-right: 10px;}
+.media .img img{display:block;}
+.media .imgExt{float:right; /*margin-left: 10px;*/}
+	
